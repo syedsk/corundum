@@ -40,6 +40,7 @@ MODULE_PARM_DESC(link_status_poll,
 #ifdef CONFIG_PCI
 static const struct pci_device_id mqnic_pci_id_table[] = {
 	{PCI_DEVICE(0x1234, 0x1001)},
+	{PCI_DEVICE(0x1234, 0x00ff)},
 	{PCI_DEVICE(0x5543, 0x1001)},
 	{0 /* end */ }
 };
